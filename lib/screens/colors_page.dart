@@ -72,6 +72,13 @@ class ColorsPage extends StatelessWidget {
               fontSize: 27,
             ),
           ),
+          leading: IconButton(
+            color: const Color(0xFFE5DDC8),
+            icon: const Icon(Icons.arrow_back),
+            onPressed: () {
+              Navigator.pop(context);
+            },
+          ),
         ),
         body: ListView.builder(
           itemCount: numbers.length,

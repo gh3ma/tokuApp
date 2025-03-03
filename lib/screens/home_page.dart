@@ -5,6 +5,8 @@ import 'package:toku/screens/family_mambers_page.dart';
 import 'package:toku/screens/numbers_page.dart';
 import 'package:toku/screens/phrases_page.dart';
 
+import 'info_page.dart';
+
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
 
@@ -78,19 +80,39 @@ class HomePage extends StatelessWidget {
               category_font_size: 25,
             ),
           ),
-          Category(
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => const PhrasesPage(),
-                ),
-              );
-            },
-            category_text: 'Phrases',
-            category_bg_color: const Color(0xFF004369),
-            category_color: const Color(0xFFE5DDC8),
-            category_font_size: 25,
+          Padding(
+            padding: const EdgeInsets.only(bottom: 4),
+            child: Category(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const PhrasesPage(),
+                  ),
+                );
+              },
+              category_text: 'Phrases',
+              category_bg_color: const Color(0xFF004369),
+              category_color: const Color(0xFFE5DDC8),
+              category_font_size: 25,
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.only(bottom: 4),
+            child: Category(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => InfoPage(),
+                  ),
+                );
+              },
+              category_text: 'Info',
+              category_bg_color: const Color(0xFF004369),
+              category_color: const Color(0xFFE5DDC8),
+              category_font_size: 25,
+            ),
           ),
         ],
       ),

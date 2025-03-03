@@ -64,6 +64,13 @@ class PhrasesPage extends StatelessWidget {
               color: Color(0xFFE5DDC8),
             ),
           ),
+          leading: IconButton(
+            color: Color(0xFFE5DDC8),
+            icon: const Icon(Icons.arrow_back),
+            onPressed: () {
+              Navigator.pop(context);
+            },
+          ),
         ),
         body: ListView.builder(
           itemCount: phrasesList.length,

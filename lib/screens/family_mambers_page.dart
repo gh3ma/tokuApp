@@ -83,7 +83,7 @@ class FamilyMembersPage extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Color(0xFFE5DDC8),
+        backgroundColor: const Color(0xFFE5DDC8),
         appBar: AppBar(
           backgroundColor: const Color(0xFF004369),
           title: const Text(
@@ -94,6 +94,13 @@ class FamilyMembersPage extends StatelessWidget {
               fontFamily: 'DynaPuff',
             ),
           ),
+          leading: IconButton(
+            color: const Color(0xFFE5DDC8),
+            icon: const Icon(Icons.arrow_back),
+            onPressed: () {
+              Navigator.pop(context);
+            },
+          ),
         ),
         body: ListView.builder(
           itemCount: numbers.length,
@@ -101,9 +108,9 @@ class FamilyMembersPage extends StatelessWidget {
             return Item(
               item: numbers[num],
               color: const Color(0xFFE5DDC8),
-              txt_color: Color(0xFF004369),
-              icon_color: Color(0xFF004369),
-              img_bg_color: Color(0xFF004369),
+              txt_color: const Color(0xFF004369),
+              icon_color: const Color(0xFF004369),
+              img_bg_color: const Color(0xFF004369),
             );
           },
         ),
