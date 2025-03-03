@@ -23,14 +23,6 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="https://github.com/gh3ma/tokuApp/blob/main/screenshots/1.png" alt="Toku App Screenshot 1" width="600">
-  <img src="https://github.com/gh3ma/tokuApp/blob/main/screenshots/2.png" alt="Toku App Screenshot 2" width="600">
-  <img src="https://github.com/gh3ma/tokuApp/blob/main/screenshots/3.png" alt="Toku App Screenshot 3" width="600">
-  <img src="https://github.com/gh3ma/tokuApp/blob/main/screenshots/4.png" alt="Toku App Screenshot 4" width="600">
-  <img src="https://github.com/gh3ma/tokuApp/blob/main/screenshots/5.png" alt="Toku App Screenshot 5" width="600">
-</p>
-
 ## Key Features
 
 * Interactive lessons tailored to different proficiency levels
