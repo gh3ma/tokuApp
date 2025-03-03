@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/gh3ma/TokuApp"><img src="https://path-to-your-app-logo.png" alt="Toku App" width="200"></a>
+  <a href="https://github.com/gh3ma/TokuApp"></a>
   <br>
   Toku App
   <br>
@@ -18,11 +18,8 @@
 
 ## Key Features
 
-* Interactive lessons tailored to different proficiency levels
-* Quizzes to test and reinforce learning
-* Daily practice exercises to build vocabulary and grammar skills
-* Supports multiple devices
-* Cross platform
+* Practice exercises to build vocabulary skills
+* Cross platform IOS & Android
 
 ## How To Use
 
