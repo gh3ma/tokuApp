@@ -8,20 +8,6 @@
 
 <h4 align="center">An application for learning the Japanese language, built with <a href="https://flutter.dev" target="_blank">Flutter</a> and <a href="https://dart.dev" target="_blank">Dart</a>.</h4>
 
-<p align="center">
-  <a href="https://badge.fury.io/for/js/TokuApp">
-    <img src="https://badge.fury.io/js/TokuApp.svg" alt="npm version">
-  </a>
-  <a href="https://gitter.im/gh3ma/TokuApp">
-    <img src="https://badges.gitter.im/gh3ma/TokuApp.svg">
-  </a>
-  <a href="https://saythanks.io/to/your-email@example.com">
-      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
-  </a>
-  <a href="https://www.paypal.me/YourPaypal">
-    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
-  </a>
-</p>
 
 ## Key Features
 
