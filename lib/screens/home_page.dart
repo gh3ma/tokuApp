@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:toku/components/category.dart';
-import 'package:toku/components/list_item.dart';
 import 'package:toku/screens/colors_page.dart';
 import 'package:toku/screens/family_mambers_page.dart';
 import 'package:toku/screens/numbers_page.dart';
@@ -38,8 +37,8 @@ class HomePage extends StatelessWidget {
                 ));
               },
               category_text: 'Numbers',
-              category_bg_color: Color(0xFF004369),
-              category_color: Color(0xFFE5DDC8),
+              category_bg_color: const Color(0xFF004369),
+              category_color: const Color(0xFFE5DDC8),
               category_font_size: 25,
             ),
           ),
@@ -57,7 +56,7 @@ class HomePage extends StatelessWidget {
               },
               category_text: 'Family Members',
               category_bg_color: const Color(0xFF004369),
-              category_color: Color(0xFFE5DDC8),
+              category_color: const Color(0xFFE5DDC8),
               category_font_size: 25,
             ),
           ),
@@ -74,8 +73,8 @@ class HomePage extends StatelessWidget {
                 );
               },
               category_text: 'Colors',
-              category_bg_color: Color(0xFF004369),
-              category_color: Color(0xFFE5DDC8),
+              category_bg_color: const Color(0xFF004369),
+              category_color: const Color(0xFFE5DDC8),
               category_font_size: 25,
             ),
           ),
@@ -90,7 +89,7 @@ class HomePage extends StatelessWidget {
             },
             category_text: 'Phrases',
             category_bg_color: const Color(0xFF004369),
-            category_color: Color(0xFFE5DDC8),
+            category_color: const Color(0xFFE5DDC8),
             category_font_size: 25,
           ),
         ],
