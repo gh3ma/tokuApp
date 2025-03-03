@@ -13,7 +13,8 @@
     <img src="https://badge.fury.io/js/TokuApp.svg"
          alt="npm version">
   </a>
-  <a href="https://gitter.im/gh3ma/TokuApp"><img src="https://badges.gitter.im/gh3ma/TokuApp.svg"></a>
+  <a href="https://gitter.im/gh3ma/TokuApp"><img src="[![screenshot](https://path-to-your-app-screenshot.png)](https://github.com/gh3ma/tokuApp/blob/main/screenshots/1.png)
+"></a>
   <a href="https://saythanks.io/to/your-email@example.com">
       <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
   </a>
@@ -22,18 +23,6 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="#key-features">Key Features</a> •
-  <a href="#how-to-use">How To Use</a> •
-  <a href="#download">Download</a> •
-  <a href="#credits">Credits</a> •
-  <a href="#related">Related</a> •
-  <a href="#license">License</a>
-</p>
-
-[![screenshot](https://path-to-your-app-screenshot.png)](https://github.com/gh3ma/tokuApp/blob/main/screenshots/1.png)
-[![screenshot](https://path-to-your-app-screenshot.png)](https://github.com/gh3ma/tokuApp/blob/main/screenshots/2.png)
-[![screenshot](https://path-to-your-app-screenshot.png)](https://github.com/gh3ma/tokuApp/blob/main/screenshots/3.png)
 
 
 
